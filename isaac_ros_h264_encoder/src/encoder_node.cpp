@@ -39,7 +39,7 @@ using nvidia::gxf::optimizer::GraphIOGroupSupportedDataTypesInfoList;
 
 constexpr char INPUT_COMPONENT_KEY[] = "color_converter/data_receiver";
 constexpr char INPUT_DEFAULT_FORMAT[] = "nitros_image_bgr8";
-constexpr char INPUT_TOPIC_NAME[] = "image_raw";
+constexpr char INPUT_TOPIC_NAME[] = "image";
 
 constexpr char OUTPUT_COMPONENT_KEY[] = "sink/sink";
 constexpr char OUTPUT_DEFAULT_FORMAT[] = "nitros_compressed_image";
