@@ -43,7 +43,8 @@ constexpr char INPUT_TOPIC_NAME[] = "image";
 
 constexpr char OUTPUT_COMPONENT_KEY[] = "sink/sink";
 constexpr char OUTPUT_DEFAULT_FORMAT[] = "nitros_compressed_image";
-constexpr char OUTPUT_TOPIC_NAME[] = "image_compressed";
+// constexpr char OUTPUT_TOPIC_NAME[] = "image_compressed";
+constexpr char OUTPUT_TOPIC_NAME[] = "compressed";
 
 constexpr char APP_YAML_FILENAME[] = "config/nitros_encoder_node.yaml";
 constexpr char PACKAGE_NAME[] = "isaac_ros_h264_encoder";
